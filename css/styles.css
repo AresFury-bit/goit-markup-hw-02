@@ -67,13 +67,14 @@ color:#404BBF;
     background-color: #2E2F42;
 }  
 /* Family: Roboto Weight: Medium Size: 16px Line Height: 24px Letter Spacing: 4% */
-button {
+.button {
     background-color: #4D5AE5;
     color: white;
     font-size: 1rem;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    
 }
 button:hover,
 button:focus {
@@ -82,6 +83,7 @@ button:focus {
 }
 .studio{
     background-color:#f4f4fd;
+    text-align:center;
 }
 .team-members{
 background-color: #FFFFFF;
@@ -109,15 +111,18 @@ h1{
 
 h2{
 font-weight: bold;    
-font-size: 36px;
+font-size: 2.25rem;
 letter-spacing: 0.02em;
+color:#2E2F42;
+line-height: 1.11;
+
 }
 h3{
         font-size: 20px;
         letter-spacing: 0.02em;
         font-weight: 500;
         color:#2E2F42;
-        line-height: 1.5;
+        line-height: 1.2;
 }
 h1,h2{
     text-align: center;
