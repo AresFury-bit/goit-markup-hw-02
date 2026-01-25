@@ -1,18 +1,31 @@
 body {
-font-family: "Roboto", "Raleway", sans-serif;
+font-family: "Roboto", sans-serif;
 color:#434455;
+background-color: white;
+line-height: 24px;
+letter-spacing: 2%;
+font-size: 16px;
 }
 a {
     text-decoration: none;
 }
 ul{list-style-type: none;}
-
+li{background-color:#FFFFFF;}
 .style-logo{
     color: #4D5AE5;
     font-size: 18px ;
 }
 .logo{
     font-size: 18px;
+    color:#2E2F42;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    font-weight:700;
+}
+section{
+    background-color:#f4f4fd;
 }
 .navigation .nav_color{
 color: #2E2F42;
@@ -43,7 +56,20 @@ h1{
     color:white;
     font-size: 56px; 
     text-align: center;
+    font-weight: bold;
+    line-height: 60px;
+    letter-spacing: 2%;
 
+}
+
+h2{
+font-weight: bold;    
+font-size: 36px;
+letter-spacing: 2%;
+}
+h3{
+        font-size: 20px;
+        letter-spacing: 2%;
 }
 h1,h2{
     text-align: center;
